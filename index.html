@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>About Me - Salvador Dalí</title>
 </head>
 <body>
+    <script src="./script.js" defer></script>
     <nav>
         <h1>Salvador Dalí</h1>
         <ul>
@@ -17,24 +19,57 @@
         </ul>
     </nav>
     <section id="aboutme">
-        <div class="texto">
-            <h2>About Me</h2>
-            <p><strong>Salvador Domingo Felipe Jacinto Dalí i Domènech</strong>, 1st Marquess of Dalí de Púbol gcYC (/ˈdɑːli, dɑːˈliː/; Catalan: [səlβəˈðo ðəˈli]; Spanish: [salβaˈðoɾ ðaˈli]; 11 May 1904 – 23 January 1989) was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.</p>
-            <p>Born in Figueres, Catalonia, Dalí received his formal education in fine arts in Madrid. Influenced by Impressionism and the Renaissance masters from a young age, he became increasingly attracted to Cubism and avant-garde movements. He moved closer to Surrealism in the late 1920s and joined the Surrealist group in 1929, soon becoming one of its leading exponents. His best-known work, The Persistence of Memory, was completed in August 1931, and is one of the most famous Surrealist paintings. Dalí lived in France throughout the Spanish Civil War (1936 to 1939) before leaving for the United States in 1940 where he achieved commercial success. He returned to Spain in 1948 where he announced his return to the Catholic faith and developed his "nuclear mysticism" style, based on his interest in classicism, mysticism, and recent scientific developments.</p>
-            <p>Dalí's artistic repertoire included painting, graphic arts, film, sculpture, design and photography, at times in collaboration with other artists. He also wrote fiction, poetry, autobiography, essays and criticism. Major themes in his work include dreams, the subconscious, sexuality, religion, science and his closest personal relationships. To the dismay of those who held his work in high regard, and to the irritation of his critics, his eccentric and ostentatious public behavior often drew more attention than his artwork. His public support for the Francoist regime, his commercial activities and the quality and authenticity of some of his late works have also been controversial. His life and work were an important influence on other Surrealists, pop art and contemporary artists such as Jeff Koons and Damien Hirst.</p>
-            <p>There are two major museums devoted to Salvador Dalí's work: the Dalí Theatre-Museum in Figueres, Spain, and the Salvador Dalí Museum in St. Petersburg, Florida.</p>
-        </div>
-        <div class="imagem">
-            <img src="./resources/salvador-dali-4.jpg" alt="Image of Salvador Dalí">
+        <h2>About Me</h2>
+        <div class="conteudo">
+            <div class="texto">
+                <p><strong>Salvador Domingo Felipe Jacinto Dalí i Domènech</strong>, 1st Marquess of Dalí de Púbol gcYC (/ˈdɑːli, dɑːˈliː/; Catalan: [səlβəˈðo ðəˈli]; Spanish: [salβaˈðoɾ ðaˈli]; 11 May 1904 – 23 January 1989) was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.</p>
+                <p>Born in Figueres, Catalonia, Dalí received his formal education in fine arts in Madrid. Influenced by Impressionism and the Renaissance masters from a young age, he became increasingly attracted to Cubism and avant-garde movements. He moved closer to Surrealism in the late 1920s and joined the Surrealist group in 1929, soon becoming one of its leading exponents. His best-known work, The Persistence of Memory, was completed in August 1931, and is one of the most famous Surrealist paintings. Dalí lived in France throughout the Spanish Civil War (1936 to 1939) before leaving for the United States in 1940 where he achieved commercial success. He returned to Spain in 1948 where he announced his return to the Catholic faith and developed his "nuclear mysticism" style, based on his interest in classicism, mysticism, and recent scientific developments.</p>
+                <p>Dalí's artistic repertoire included painting, graphic arts, film, sculpture, design and photography, at times in collaboration with other artists. He also wrote fiction, poetry, autobiography, essays and criticism. Major themes in his work include dreams, the subconscious, sexuality, religion, science and his closest personal relationships. To the dismay of those who held his work in high regard, and to the irritation of his critics, his eccentric and ostentatious public behavior often drew more attention than his artwork. His public support for the Francoist regime, his commercial activities and the quality and authenticity of some of his late works have also been controversial. His life and work were an important influence on other Surrealists, pop art and contemporary artists such as Jeff Koons and Damien Hirst.</p>
+                <p>There are two major museums devoted to Salvador Dalí's work: the Dalí Theatre-Museum in Figueres, Spain, and the Salvador Dalí Museum in St. Petersburg, Florida.</p>
+            </div>
+            <div class="imagem">
+                <img src="./resources/salvador-dali-4.jpg" alt="Image of Salvador Dalí">
+            </div>
         </div>
     </section>
     <section id="works">
         <h2>Works</h2>
-        <ul>
-            <li>La Persistencia de La Memoria</li>
-            <li>El Gran Masturbador</li>
-            <li>Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening</li>
-            <li>The Hallucinogenic Toreador</li>
+        <div class="obra" id="persistencia">
+            <h3 class="botao">La Persistencia de La Memoria</h3>
+            <br>
+            <figure class="detalles">
+                <img src="./resources/la persistencia de la memoria.jpg" alt="La persistencia de la memoria">
+                <figcaption>The Persistence of Memory (1931) is one of the most iconic and recognizable paintings of Surrealism. Frequently referenced in popular culture, the small canvas (24x33 cm) is sometimes known as “Melting Clocks”, “The Soft Watches” and “The Melting Watches”. The painting depicts a dreamworld in which common objects are deformed and displayed in a bizarre and irrational way: watches, solid and hard objects appear to be inexplicably limp and melting in the desolate landscape. Dalí paints his fantastical vision in a meticulous and realistic manner: he effortlessly integrates the real and the imaginary in order “to systemize confusion and thus to help discredit completely the world of reality”.</figcaption>
+            </figure>
+            <br>
+        </div>
+        <div class="obra" id="masturbador">
+            <h3 class="botao">El Gran Masturbador</h3>
+            <br>
+            <figure class="detalles">
+                <img src="./resources/el gran masturbador.jpg" alt="El gran masturbador">
+                <figcaption>The Great Masturbator (1929) is an autobiographical painting, in which the artist addresses his anxieties, fears, and sexual obsessions. At the center of the painting is a large amorphous form that is a distorted self-portrait of the artist: Dalí depicts himself with his eyes shut and a large grasshopper placed on his mouth. Similar versions of the self-portrait appear in Dalí’s other paintings including the famous masterpiece The Persistence of Memory (1931). According to Dalí, he based the self-portrait on a rock formation in Cap de Creus, located along the shore of his homeland, Catalonia. Some scholars have also drawn a parallel between the self-portrait and a section of Hieronymus Bosch's</figcaption>
+            </figure>
+            <br>
+        </div>
+        <div class="obra" id="dream">
+            <h3 class="botao">Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening</h3>
+            <br>
+            <figure class="detalles">
+                <img src="./resources/dream.jpg" alt="Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening">
+                <figcaption>Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening (1944) is a surrealist painting by Salvador Dalí. A short, alternate title for the painting is Dream Caused by the Flight of a Bee. It was painted in 1944, while Dalí and his wife, Gala, were living in America.</figcaption>
+            </figure>
+            <br>
+        </div>
+        <div class="obra" id="toreador">
+            <h3 class="botao">The Hallucinogenic Toreador</h3>
+            <br>
+            <figure class="detalles">
+                <img src="./resources/the hallucinogenic toreador.jpg" alt="The Hallucinogenic toreador">
+                <figcaption>Dali illustrates his passion for bullfighting in The Hallucinogenic Toreador, his wife Gala, however, did not. Her face is pictured in the top left corner of the piece, with a look of condemnation, illustrating her hatred for the practice. The statue of Venus de Milo is seen 28 times in the painting, which is not an innocuous addition. In order to see the face of the toreador, you must look past the first illustration of the statue. The face lies in the second Venus de Milo. Upon closer inspection, the breasts of the statue make up the nose of the bullfighter, and their dresses make up his red scarf, and white shirt, tied with a green necktie. When the painting was first exhibited in New York City, it was accompanied by an illustration labeled “how to see the toreador,” which gave explicit instructions on how to see the hidden image of the toreador in the painting.</figcaption>
+            </figure>
+            <br>
+        </div>
         </ul>
     </section>
     <section id="facets">
@@ -58,5 +93,6 @@
             </div>
         </div>
     </section>
+    <footer>Copyright © All Rights Reserved</footer>
 </body>
 </html>
